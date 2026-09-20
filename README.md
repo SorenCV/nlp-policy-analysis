@@ -22,6 +22,24 @@ Part 2: <a target="_blank" href="https://colab.research.google.com/github/climat
 
 Estimated time to execute end-to-end: 2 hours
 
+## Local setup
+
+Create the Conda environment and start JupyterLab:
+
+```bash
+conda env create -f environment.yml
+conda activate nlp-policy-analysis
+jupyter lab
+```
+
+Part 2 requires an OpenAI API key. Add it to a local `.env` file:
+
+```dotenv
+OPENAI_API_KEY=your_api_key_here
+```
+
+The `.env` file is ignored by Git and must not be committed.
+
 ## Contribute to this tutorial
 
 Please refer to these [GitHub instructions](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project#about-forking) to open a pull request via the "fork and pull request" workflow. 

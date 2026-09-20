@@ -1,0 +1,29 @@
+name: nlp-policy-analysis
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - pip
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
+  - matplotlib
+  - nltk
+  - numpy
+  - pandas
+  - requests
+  - scikit-learn
+  - pip:
+      - accelerate
+      - datasets
+      - huggingface-hub
+      - llama-index
+      - llama-index-embeddings-openai
+      - llama-index-readers-file
+      - openai
+      - pymupdf
+      - python-dotenv
+      - torch
+      - transformers
